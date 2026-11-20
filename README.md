@@ -6,36 +6,28 @@ Built according to the **Emerald & Filigree Heirloom** design system inspired by
 
 ---
 
-## ✦ Key Features
+## ✦ Clean & Simple Layout
 
 - **Heirloom Aesthetic & Typography**:
   - Deep Emerald (`#0B3D2E`), Antique Gold (`#C9A227`), Pale Ivory (`#FAF6EC`), and botanical charcoal.
-  - Pairings of **Playfair Display** and **Plus Jakarta Sans**.
+  - Classic pairings of **Playfair Display** and **Plus Jakarta Sans**.
   - Delicate botanical corner vignettes and filigree gold rules.
 - **Interactive Ceremonial Wax Seal**:
-  - Tactile 3D embossed relief medallion.
-  - Tapping triggers a celebratory golden confetti burst and ceremonial chime!
+  - Tactile 3D embossed relief medallion (`2026` + graduation icon).
+  - Tapping triggers a celebratory golden confetti burst and ceremonial chime.
 - **Audio Chime / Ambience**:
   - Built-in Web Audio API graduation fanfare chime (zero external audio file dependencies; works 100% offline).
 - **Live Commencement Countdown**:
   - Real-time ticker counting down to **Friday, November 27, 2026 at 2:00 PM EAT**.
 - **Calendar Integration**:
   - One-tap **Google Calendar** event link.
-  - One-tap **Apple Calendar / iCal (.ics)** downloadable event with preconfigured alerts and venue details.
+  - One-tap **Apple Calendar / iCal (.ics)** downloadable event.
 - **Venue & Smart Navigation**:
   - Wattle House Celebration Grounds, Kikuyu.
   - One-tap navigation links for Google Maps.
   - Address copy button with instant confirmation toast.
-- **Interactive RSVP System**:
-  - Select "Joyfully Accepts" or "Regretfully Declines".
-  - Guest contact and dietary selection (Roast/Poultry, Seafood, Vegetarian Gourmet, Halal).
-  - Congratulatory note field for Derrick.
-  - Instant submission feedback with confetti and `localStorage` persistence.
-- **Digital Guestbook & Registry**:
-  - Dynamic blessings board where guests' congratulatory messages appear immediately.
-  - M-Pesa Send Money & Bank Transfer details with one-click copy buttons.
 - **Mobile-First Responsive Dock**:
-  - Bottom navigation bar with smooth scrolling to sections (`Honors`, `Date`, `Venue`, `RSVP`, `Gifts`).
+  - Bottom navigation bar with smooth scrolling across sections (`Honors`, `Date`, `Venue`).
 
 ---
 
