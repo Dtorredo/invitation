@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-[#f4f0e6]">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Derrick Ng'ang'a, BSc. IT — Academic Commencement & Gala Invitation</title>
+  <meta name="description" content="Official Commencement Convocation & Gala Dinner Celebration Invitation for Derrick Ng'ang'a, BSc. Information Technology. Friday, November 27, 2026.">
+  <meta name="theme-color" content="#0B3D2E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+  <!-- Self-contained CSS & Design System (Tailwind compatibility + Emerald & Filigree Heirloom theme) -->
+  <style>
+    :root {
+      --primary: #0B3D2E;
+      --primary-container: #00261b;
+      --primary-light: #165340;
+      --on-primary: #FAF6EC;
+      --secondary: #C9A227;
+      --secondary-fixed: #ECC246;
+      --secondary-light: #F7E7A9;
+      --tertiary: #8A6D1C;
+      --surface: #FAF6EC;
+      --surface-lowest: #FFFDF9;
+      --surface-container: #F1EEE4;
+      --surface-high: #ECE8DE;
+      --on-surface: #1F2421;
+      --on-surface-variant: #5A625D;
+      --border-gold: rgba(201, 162, 39, 0.4);
+      --border-gold-subtle: rgba(201, 162, 39, 0.2);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: #ede9dc;
+      color: var(--on-surface);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-image: radial-gradient(circle at 50% 20%, rgba(201, 162, 39, 0.08) 0%, transparent 60%),
+                        radial-gradient(circle at 80% 80%, rgba(11, 61, 46, 0.06) 0%, transparent 50%);
+    }
+
+    /* Outer Wrapper for Mobile Viewport Framing */
+    .app-frame {
+      width: 100%;
+      max-width: 440px;
+      min-height: 100vh;
+      background-color: var(--surface);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 40px -10px rgba(11, 61, 46, 0.15), 0 0 0 1px rgba(201, 162, 39, 0.25);
+    }
+
+    @media (min-width: 441px) {
+      body {
+        padding: 24px 0 60px;
+      }
+      .app-frame {
+        border-radius: 36px;
+        overflow: hidden;
+      }
+    }
+
+    /* Luxury Typography Helper Classes */
+    .font-serif { font-family: var(--font-display); }
+    .font-sans { font-family: var(--font-sans); }
+
+    .gold-foil-text {
+      background: linear-gradient(135deg, #B58D20 0%, #E8C858 50%, #A88118 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-gradient-border {
+      border: 1px solid transparent;
+      background: linear-gradient(var(--surface-lowest), var(--surface-lowest)) padding-box,
+                  linear-gradient(135deg, #C9A227, #f7e7a9, #A88118) border-box;
+    }
+
+    /* Filigree Dual Border Frame */
+    .filigree-card {
+      background: var(--surface-lowest);
+      border-radius: 28px;
+      position: relative;
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 12px 36px -8px rgba(11, 61, 46, 0.08), 0 2px 10px -2px rgba(201, 162, 39, 0.06);
+    }
+    .filigree-card::before {
+      content: '';
+      position: absolute;
+      inset: 6px;
+      border: 1px solid var(--border-gold-subtle);
+      border-radius: 22px;
+      pointer-events: none;
+    }
+
+    /* Tactile Wax Seal */
+    .wax-seal {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 30%, #165340 0%, #0B3D2E 60%, #051d16 100%);
+      border: 2px solid #C9A227;
+      box-shadow: 0 8px 20px -3px rgba(11, 61, 46, 0.45), inset 0 2px 4px rgba(236, 194, 70, 0.4), inset 0 -3px 6px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+      user-select: none;
+    }
+    .wax-seal:hover {
+      transform: scale(1.06) rotate(-2deg);
+      box-shadow: 0 12px 26px -3px rgba(11, 61, 46, 0.55), inset 0 2px 6px rgba(236, 194, 70, 0.6);
+    }
+    .wax-seal:active {
+      transform: scale(0.95);
+    }
+    .wax-seal-badge {
+      position: absolute;
+      bottom: -4px;
+      right: -4px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ECC246, #C9A227);
+      border: 1.5px solid #FFFDF9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Buttons */
+    .btn-emerald {
+      background: linear-gradient(145deg, #104e3b 0%, #0B3D2E 100%);
+      color: #FFFDF9;
+      border: 1px solid #C9A227;
+      padding: 14px 24px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      box-shadow: 0 8px 24px -4px rgba(11, 61, 46, 0.35);
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .btn-emerald:hover {
+      background: linear-gradient(145deg, #145e47 0%, #0c4333 100%);
+      box-shadow: 0 10px 28px -4px rgba(11, 61, 46, 0.45);
+      transform: translateY(-1px);
+    }
+    .btn-emerald:active {
+      transform: translateY(1px);
+    }
+
+    .btn-ghost-gold {
+      background: rgba(255, 253, 249, 0.8);
+      color: #0B3D2E;
+      border: 1px solid #C9A227;
+      padding: 10px 18px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .btn-ghost-gold:hover {
+      background: #FFFDF9;
+      border-color: #8A6D1C;
+    }
+
+    /* Canvas Confetti Layer */
+    #confettiCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 84px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: #0B3D2E;
+      color: #FFFDF9;
+      border: 1px solid #C9A227;
+      padding: 12px 20px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      z-index: 1000;
+      white-space: nowrap;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+    }
+
+    /* Pulse Glow */
+    @keyframes goldGlow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(201, 162, 39, 0.4); }
+      50% { box-shadow: 0 0 0 10px rgba(201, 162, 39, 0); }
+    }
+    .pulse-gold {
+      animation: goldGlow 3s infinite;
+    }
+
+    /* Shimmer effect */
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+    .shimmer {
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 4s infinite;
+    }
+
+    /* Tab active styles */
+    .nav-tab.active {
+      color: #0B3D2E;
+      font-weight: 700;
+    }
+    .nav-tab.active .tab-icon {
+      color: #0B3D2E;
+      transform: translateY(-2px);
+    }
+    .nav-tab {
+      transition: all 0.2s ease;
+      color: #717974;
+    }
+
+    /* Modal Sheet for RSVP */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(11, 38, 27, 0.6);
+      backdrop-filter: blur(8px);
+      z-index: 900;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-sheet {
+      width: 100%;
+      max-width: 440px;
+      max-height: 90vh;
+      background: #FFFDF9;
+      border-radius: 32px 32px 0 0;
+      border-top: 2px solid #C9A227;
+      box-shadow: 0 -10px 40px rgba(0,0,0,0.3);
+      padding: 24px 20px 40px;
+      overflow-y: auto;
+      transform: translateY(100%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .modal-backdrop.open .modal-sheet {
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="confettiCanvas"></canvas>
+
+  <div class="app-frame" id="invitationApp">
+
+    <!-- Top Fixed Sticky Header -->
+    <header style="position: sticky; top: 0; z-index: 100; background: rgba(250, 246, 236, 0.92); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(201, 162, 39, 0.2); padding-top: env(safe-area-inset-top, 0px);">
+      <div style="height: 62px; padding: 0 16px; display: flex; align-items: center; justify-content: space-between;">
+        
+        <!-- Share Action Button -->
+        <button id="headerShareBtn" aria-label="Share Invitation" style="width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(201,162,39,0.3); background: #FFFDF9; display: flex; align-items: center; justify-content: center; color: #8A6D1C; cursor: pointer; transition: all 0.2s;">
+          <span class="material-symbols-outlined" style="font-size: 20px;">share</span>
+        </button>
+
+        <!-- Stately Header Typography (No Collision) -->
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+          <span style="font-family: var(--font-sans); font-size: 10px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: #8A6D1C; margin-bottom: 1px;">
+            Academic Commencement
+          </span>
+          <h1 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: #0B3D2E; letter-spacing: 0.01em; line-height: 1.2;">
+            Graduation Invitation
+          </h1>
+        </div>
+
+        <!-- Audio Fanfare Toggle Button -->
+        <button id="soundToggleBtn" aria-label="Celebration Chime" title="Play Commencement Chime" style="width: 40px; height: 40px; border-radius: 50%; border: 1px solid #C9A227; background: #0B3D2E; display: flex; align-items: center; justify-content: center; color: #ECC246; cursor: pointer; transition: all 0.2s;" class="pulse-gold">
+          <span class="material-symbols-outlined" id="soundIcon" style="font-size: 20px;">volume_up</span>
+        </button>
+
+      </div>
+    </header>
+
+    <!-- Main Invitation Scroll Container -->
+    <main style="flex: 1; padding: 16px 16px 100px; position: relative;">
+
+      <!-- SECTION: HERO FOLIO -->
+      <section id="section-honors" style="scroll-margin-top: 80px;">
+
+        <!-- Outer Filigree Folio Card -->
+        <div class="filigree-card" style="padding: 28px 20px 24px; text-align: center; position: relative; overflow: hidden;">
+          
+          <!-- Subtle Botanical Foil Background Accents -->
+          <div style="position: absolute; top: -30px; left: -30px; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle, rgba(201,162,39,0.12), transparent); pointer-events: none;"></div>
+          <div style="position: absolute; bottom: -30px; right: -30px; width: 140px; height: 140px; border-radius: 50%; background: radial-gradient(circle, rgba(11,61,46,0.08), transparent); pointer-events: none;"></div>
+
+          <!-- Decorative Botanical Corner Sprigs -->
+          <div style="display: flex; justify-content: space-between; align-items: center; opacity: 0.75; margin-bottom: 16px;">
+            <svg style="color: #C9A227;" width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M3 21C3 15 7 10 13 8C17 6.6 20 4 21 3C20 7 18 11 15 14C11 18 6 21 3 21Z" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 17C10 14 13 12 16 11" stroke="currentColor" stroke-width="1"/>
+              <circle cx="5" cy="19" r="1.5" fill="currentColor"/>
+            </svg>
+            <div style="flex: 1; height: 1px; margin: 0 12px; background: linear-gradient(90deg, transparent, rgba(201,162,39,0.5), transparent);"></div>
+            <svg style="color: #C9A227; transform: rotate(90deg);" width="26" height="26" viewBox="0 0 24 24" fill="none">
+              <path d="M3 21C3 15 7 10 13 8C17 6.6 20 4 21 3C20 7 18 11 15 14C11 18 6 21 3 21Z" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 17C10 14 13 12 16 11" stroke="currentColor" stroke-width="1"/>
+              <circle cx="5" cy="19" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+
+          <!-- Interactive Tactile Wax Monogram Seal -->
+          <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 18px;">
+            <div class="wax-seal" id="waxSealBtn" title="Tap the seal for a ceremonial celebration!">
+              <span class="material-symbols-outlined" style="color: #ECC246; font-size: 24px;">school</span>
+              <span style="font-family: var(--font-sans); font-size: 10px; font-weight: 700; letter-spacing: 0.14em; color: #ECC246; margin-top: -2px;">2026</span>
+              <div class="wax-seal-badge">
+                <span class="material-symbols-outlined" style="font-size: 14px; color: #0B3D2E;">workspace_premium</span>
+              </div>
+            </div>
+            <span style="font-size: 10px; font-weight: 600; color: #8A6D1C; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 8px;">
+              Tap Seal to Celebrate ✦
+            </span>
+          </div>
+
+          <!-- Formal Academic Inscription -->
+          <p style="font-size: 11px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: #8A6D1C; line-height: 1.6; max-width: 290px; margin: 0 auto;">
+            The Chancellor, Faculty &amp; Proud Family
+          </p>
+          <p style="font-family: var(--font-display); font-style: italic; font-size: 14px; color: #5A625D; margin: 4px 0 12px;">
+            cordially invite you to celebrate the graduation of
+          </p>
+
+          <!-- Candidate Name & Honors -->
+          <div style="margin: 8px 0 14px;">
+            <h2 style="font-family: var(--font-display); font-size: 30px; font-weight: 700; color: #0B3D2E; line-height: 1.15; letter-spacing: -0.01em;">
+              Derrick Ng'ang'a
+            </h2>
+            <div style="display: inline-block; padding: 4px 14px; border-radius: 9999px; background: rgba(11,61,46,0.06); border: 1px solid rgba(201,162,39,0.3); margin-top: 6px;">
+              <span style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #8A6D1C; letter-spacing: 0.04em;">
+                BSc. in Information Technology
+              </span>
+            </div>
+          </div>
+
+          <p style="font-size: 12px; font-weight: 600; color: #755b00; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 18px;">
+            Class of 2026 • Commencement Convocation &amp; Gala Dinner Celebration
+          </p>
+
+          <!-- Filigree Centerpiece Divider -->
+          <div style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #C9A227; margin: 12px 0 20px;">
+            <span style="font-size: 10px;">✦</span>
+            <div style="width: 44px; height: 1px; background: linear-gradient(90deg, transparent, rgba(201,162,39,0.6));"></div>
+            <span class="material-symbols-outlined" style="font-size: 18px;">spa</span>
+            <div style="width: 44px; height: 1px; background: linear-gradient(90deg, rgba(201,162,39,0.6), transparent);"></div>
+            <span style="font-size: 10px;">✦</span>
+          </div>
+
+          <!-- Splendor Portrait / Celebration Artwork with Robust Fallback -->
+          <div style="position: relative; width: 100%; height: 240px; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 16px rgba(11,61,46,0.12); margin-bottom: 20px; border: 1px solid rgba(201,162,39,0.3);">
+            <!-- High quality photograph with automatic SVG fallback -->
+            <img 
+              id="heroGraduateImg" 
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80" 
+              alt="Derrick Ng'ang'a graduation honors celebration" 
+              style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;"
+              onerror="this.onerror=null; this.parentElement.innerHTML = document.getElementById('heroFallbackArt').innerHTML;"
+            >
+            <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 40%, rgba(11,61,46,0.85) 100%);"></div>
+            
+            <div style="position: absolute; bottom: 12px; left: 16px; right: 16px; display: flex; justify-content: space-between; align-items: flex-end; color: #FAF6EC;">
+              <div>
+                <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #ECC246; display: block;">University Quadrangle</span>
+                <span style="font-family: var(--font-display); font-size: 16px; font-weight: 600;">Honor &amp; Excellence</span>
+              </div>
+              <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; background: rgba(201,162,39,0.35); padding: 4px 10px; border-radius: 9999px; border: 1px solid #ECC246;">
+                Class of 2026
+              </span>
+            </div>
+          </div>
+
+          <!-- Hidden Fallback Template for Portrait in offline/blocked mode -->
+          <template id="heroFallbackArt">
+            <div style="width: 100%; height: 100%; background: linear-gradient(145deg, #0B3D2E, #051d16); display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ECC246; position: relative;">
+              <div style="width: 80px; height: 80px; border-radius: 50%; border: 2px solid #C9A227; display: flex; align-items: center; justify-content: center; background: rgba(201,162,39,0.15);">
+                <span class="material-symbols-outlined" style="font-size: 42px;">school</span>
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: #FAF6EC; margin-top: 10px;">Derrick Ng'ang'a</h3>
+              <p style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #ECC246;">Bachelor of Science in IT</p>
+            </div>
+          </template>
+
+          <!-- Department & Family Acknowledgement -->
+          <div style="margin-bottom: 20px;">
+            <p style="font-size: 12px; color: #5A625D; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">
+              Honoring academic excellence in
+            </p>
+            <p style="font-family: var(--font-display); font-size: 17px; font-weight: 600; color: #0B3D2E; margin-top: 2px;">
+              School of Computing &amp; Information Technology
+            </p>
+            <p style="font-size: 13px; color: #8A6D1C; font-weight: 600; margin: 3px 0;">&amp;</p>
+            <p style="font-family: var(--font-display); font-size: 16px; font-weight: 600; color: #0B3D2E;">
+              The Ng'ang'a Family &amp; Mentors
+            </p>
+          </div>
+
+          <!-- Inspirational Quote Plaque -->
+          <div style="padding: 16px 20px; border-radius: 18px; background: rgba(241, 238, 228, 0.7); border: 1px solid rgba(201,162,39,0.25); margin: 0 auto; max-width: 330px;">
+            <p style="font-family: var(--font-display); font-style: italic; font-size: 14px; line-height: 1.6; color: #2B332F;">
+              “The future belongs to those who believe in the beauty of their dreams.”
+            </p>
+            <span style="display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #8A6D1C; margin-top: 6px;">
+              — Eleanor Roosevelt
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Real-Time Countdown Block -->
+        <div style="margin-top: 16px; background: linear-gradient(145deg, #0B3D2E, #07281f); border-radius: 24px; padding: 20px 16px; color: #FAF6EC; text-align: center; border: 1px solid #C9A227; box-shadow: 0 8px 24px rgba(11,61,46,0.25);">
+          <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #ECC246;">
+            Commencement Countdown
+          </span>
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px;" id="countdownGrid">
+            <div style="background: rgba(255,255,255,0.08); border-radius: 14px; padding: 10px 4px; border: 1px solid rgba(201,162,39,0.3);">
+              <span id="daysVal" style="font-family: var(--font-display); font-size: 26px; font-weight: 700; color: #ECC246; display: block; line-height: 1;">00</span>
+              <span style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #FAF6EC; opacity: 0.85;">Days</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.08); border-radius: 14px; padding: 10px 4px; border: 1px solid rgba(201,162,39,0.3);">
+              <span id="hoursVal" style="font-family: var(--font-display); font-size: 26px; font-weight: 700; color: #ECC246; display: block; line-height: 1;">00</span>
+              <span style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #FAF6EC; opacity: 0.85;">Hours</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.08); border-radius: 14px; padding: 10px 4px; border: 1px solid rgba(201,162,39,0.3);">
+              <span id="minutesVal" style="font-family: var(--font-display); font-size: 26px; font-weight: 700; color: #ECC246; display: block; line-height: 1;">00</span>
+              <span style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #FAF6EC; opacity: 0.85;">Mins</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.08); border-radius: 14px; padding: 10px 4px; border: 1px solid rgba(201,162,39,0.3);">
+              <span id="secondsVal" style="font-family: var(--font-display); font-size: 26px; font-weight: 700; color: #ECC246; display: block; line-height: 1;">00</span>
+              <span style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #FAF6EC; opacity: 0.85;">Secs</span>
+            </div>
+          </div>
+          <p style="font-size: 11px; color: #FAF6EC; opacity: 0.8; margin-top: 10px;">
+            Friday, November 27, 2026 • 2:00 PM EAT
+          </p>
+        </div>
+
+      </section>
+
+      <!-- SECTION: PROGRAM / ITINERARY -->
+      <section id="section-program" style="scroll-margin-top: 80px; margin-top: 24px;">
+
+        <div class="filigree-card" style="padding: 24px 18px;">
+          
+          <div style="text-align: center; margin-bottom: 20px;">
+            <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #8A6D1C;">
+              The Honour of Your Presence
+            </span>
+            <h3 style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: #0B3D2E; margin: 4px 0 2px;">
+              Friday, November 27, 2026
+            </h3>
+            <p style="font-family: var(--font-display); font-style: italic; font-size: 14px; color: #8A6D1C;">
+              Two Thousand Twenty-Six
+            </p>
+          </div>
+
+          <!-- Dual Highlights: Commencement & Gala -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px;">
+            
+            <div style="background: #FFFDF9; border: 1px solid rgba(201,162,39,0.3); border-radius: 18px; padding: 14px 10px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+              <div style="width: 36px; height: 36px; border-radius: 50%; background: rgba(11,61,46,0.08); margin: 0 auto 8px; display: flex; align-items: center; justify-content: center; color: #0B3D2E;">
+                <span class="material-symbols-outlined" style="font-size: 20px;">school</span>
+              </div>
+              <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6D1C; display: block;">Commencement</span>
+              <span style="font-family: var(--font-display); font-size: 17px; font-weight: 700; color: #0B3D2E; display: block; margin: 2px 0;">2:00 PM</span>
+              <span style="font-size: 11px; color: #5A625D; display: block;">Processional promptly</span>
+            </div>
+
+            <div style="background: #FFFDF9; border: 1px solid rgba(201,162,39,0.3); border-radius: 18px; padding: 14px 10px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+              <div style="width: 36px; height: 36px; border-radius: 50%; background: rgba(201,162,39,0.12); margin: 0 auto 8px; display: flex; align-items: center; justify-content: center; color: #8A6D1C;">
+                <span class="material-symbols-outlined" style="font-size: 20px;">celebration</span>
+              </div>
+              <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6D1C; display: block;">Gala Reception</span>
+              <span style="font-family: var(--font-display); font-size: 17px; font-weight: 700; color: #0B3D2E; display: block; margin: 2px 0;">6:00 PM</span>
+              <span style="font-size: 11px; color: #5A625D; display: block;">Banquet, toasts &amp; music</span>
+            </div>
+
+          </div>
+
+          <!-- Add to Calendar Interactive Action -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; margin-bottom: 24px;">
+            <button id="calendarDropdownBtn" class="btn-ghost-gold" style="width: 100%; max-width: 280px; padding: 12px 18px;">
+              <span class="material-symbols-outlined" style="font-size: 18px; color: #8A6D1C;">calendar_today</span>
+              <span>Add Event to Calendar</span>
+              <span class="material-symbols-outlined" style="font-size: 16px; margin-left: auto;">expand_more</span>
+            </button>
+
+            <!-- Calendar Options Drawer -->
+            <div id="calendarOptions" style="display: none; width: 100%; max-width: 280px; background: #FFFDF9; border: 1px solid #C9A227; border-radius: 16px; padding: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);">
+              <button id="addGoogleCal" style="width: 100%; text-align: left; padding: 10px 14px; border-radius: 10px; border: none; background: transparent; font-size: 13px; font-weight: 600; color: #0B3D2E; display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                <span class="material-symbols-outlined" style="font-size: 18px; color: #C9A227;">event</span>
+                <span>Google Calendar</span>
+              </button>
+              <button id="addAppleIcs" style="width: 100%; text-align: left; padding: 10px 14px; border-radius: 10px; border: none; background: transparent; font-size: 13px; font-weight: 600; color: #0B3D2E; display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                <span class="material-symbols-outlined" style="font-size: 18px; color: #C9A227;">download</span>
+                <span>Apple / iCal (.ics file)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Complete Order of Ceremonies Timeline -->
+          <div style="border-top: 1px solid rgba(201,162,39,0.25); padding-top: 20px;">
+            <h4 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: #0B3D2E; text-align: center; margin-bottom: 16px;">
+              Order of Ceremonies
+            </h4>
+
+            <div style="position: relative; padding-left: 28px;">
+              <!-- Timeline vertical line -->
+              <div style="position: absolute; left: 8px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(180deg, #C9A227 0%, rgba(201,162,39,0.3) 100%);"></div>
+
+              <!-- Item 1 -->
+              <div style="position: relative; margin-bottom: 18px;">
+                <div style="position: absolute; left: -28px; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: #0B3D2E; border: 2px solid #ECC246; display: flex; align-items: center; justify-content: center;">
+                  <span style="width: 6px; height: 6px; border-radius: 50%; background: #FFFDF9;"></span>
+                </div>
+                <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; letter-spacing: 0.1em; text-transform: uppercase;">01:30 PM</span>
+                <h5 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #0B3D2E;">Guest Arrival &amp; Seating</h5>
+                <p style="font-size: 12px; color: #5A625D;">Musical prelude, ushering into the Ceremonial Hall.</p>
+              </div>
+
+              <!-- Item 2 -->
+              <div style="position: relative; margin-bottom: 18px;">
+                <div style="position: absolute; left: -28px; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: #0B3D2E; border: 2px solid #ECC246; display: flex; align-items: center; justify-content: center;">
+                  <span style="width: 6px; height: 6px; border-radius: 50%; background: #FFFDF9;"></span>
+                </div>
+                <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; letter-spacing: 0.1em; text-transform: uppercase;">02:00 PM</span>
+                <h5 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #0B3D2E;">Academic Processional</h5>
+                <p style="font-size: 12px; color: #5A625D;">Entry of Chancellor, Faculty, and Graduating Class.</p>
+              </div>
+
+              <!-- Item 3 -->
+              <div style="position: relative; margin-bottom: 18px;">
+                <div style="position: absolute; left: -28px; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: #0B3D2E; border: 2px solid #ECC246; display: flex; align-items: center; justify-content: center;">
+                  <span style="width: 6px; height: 6px; border-radius: 50%; background: #FFFDF9;"></span>
+                </div>
+                <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; letter-spacing: 0.1em; text-transform: uppercase;">03:15 PM</span>
+                <h5 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #0B3D2E;">Conferment of Degrees &amp; Honors</h5>
+                <p style="font-size: 12px; color: #5A625D;">Award of BSc. IT degree, valedictorian speech &amp; blessings.</p>
+              </div>
+
+              <!-- Item 4 -->
+              <div style="position: relative; margin-bottom: 18px;">
+                <div style="position: absolute; left: -28px; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: #0B3D2E; border: 2px solid #ECC246; display: flex; align-items: center; justify-content: center;">
+                  <span style="width: 6px; height: 6px; border-radius: 50%; background: #FFFDF9;"></span>
+                </div>
+                <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; letter-spacing: 0.1em; text-transform: uppercase;">04:30 PM</span>
+                <h5 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #0B3D2E;">Family Photos &amp; Refreshments</h5>
+                <p style="font-size: 12px; color: #5A625D;">University Gardens photo session &amp; light cocktail.</p>
+              </div>
+
+              <!-- Item 5 -->
+              <div style="position: relative;">
+                <div style="position: absolute; left: -28px; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: #ECC246; border: 2px solid #0B3D2E; display: flex; align-items: center; justify-content: center;">
+                  <span style="width: 6px; height: 6px; border-radius: 50%; background: #0B3D2E;"></span>
+                </div>
+                <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; letter-spacing: 0.1em; text-transform: uppercase;">06:00 PM</span>
+                <h5 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: #0B3D2E;">Gala Banquet &amp; Celebration</h5>
+                <p style="font-size: 12px; color: #5A625D;">Dinner banquet, toasts, and music celebration at Wattle House.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SECTION: VENUE & NAVIGATION (NO DUPLICATION!) -->
+      <section id="section-venue" style="scroll-margin-top: 80px; margin-top: 24px;">
+
+        <div class="filigree-card" style="padding: 24px 18px; text-align: center;">
+
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(201,162,39,0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; color: #8A6D1C;">
+            <span class="material-symbols-outlined" style="font-size: 24px;">account_balance</span>
+          </div>
+
+          <h3 style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: #0B3D2E;">
+            Wattle House
+          </h3>
+          <p style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #8A6D1C; margin-top: 2px;">
+            Celebration Grounds &amp; Banquet Hall
+          </p>
+          <p style="font-size: 14px; color: #5A625D; margin-top: 4px;">
+            Kikuyu, Kiambu County
+          </p>
+
+          <!-- Interactive Venue & Map Card -->
+          <div style="width: 100%; height: 180px; border-radius: 18px; overflow: hidden; margin: 16px 0; position: relative; border: 1px solid rgba(201,162,39,0.3); box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+            <img 
+              src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80" 
+              alt="Wattle House Celebration Grounds" 
+              style="width: 100%; height: 100%; object-fit: cover;"
+              onerror="this.parentElement.style.background='linear-gradient(135deg, #0B3D2E, #1F2421)';"
+            >
+            <div style="position: absolute; inset: 0; background: rgba(11, 61, 46, 0.25);"></div>
+            <div style="position: absolute; bottom: 12px; left: 12px; background: rgba(255, 253, 249, 0.94); backdrop-filter: blur(8px); padding: 6px 14px; border-radius: 9999px; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">
+              <span class="material-symbols-outlined" style="font-size: 16px; color: #C9A227;">pin_drop</span>
+              <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #0B3D2E;">Wattle House Main Entrance</span>
+            </div>
+          </div>
+
+          <!-- Parking & Logistics Note -->
+          <div style="display: flex; align-items: flex-start; gap: 10px; background: rgba(241, 238, 228, 0.7); border: 1px solid rgba(201,162,39,0.2); border-radius: 14px; padding: 12px; text-align: left; margin-bottom: 18px;">
+            <span class="material-symbols-outlined" style="color: #8A6D1C; font-size: 20px; flex-shrink: 0; margin-top: 1px;">local_parking</span>
+            <div style="font-size: 12px; color: #3A423E; line-height: 1.4;">
+              <strong>Designated Guest Parking:</strong> Secure parking is reserved for all commencement and gala guests on-grounds with security personnel present.
+            </div>
+          </div>
+
+          <!-- Navigation Action Button -->
+          <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+            <a href="https://maps.google.com/?q=Wattle+House+Kikuyu" target="_blank" rel="noopener noreferrer" class="btn-emerald" style="width: 100%; max-width: 320px;">
+              <span class="material-symbols-outlined" style="font-size: 18px; color: #ECC246;">navigation</span>
+              <span>Open in Google Maps</span>
+            </a>
+            <button id="copyDirectionsBtn" class="btn-ghost-gold" style="width: 100%; max-width: 320px;">
+              <span class="material-symbols-outlined" style="font-size: 16px;">content_copy</span>
+              <span>Copy Venue Address</span>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SECTION: ATTIRE & CELEBRATION GUIDELINES -->
+      <section style="margin-top: 24px;">
+        <div class="filigree-card" style="padding: 22px 18px; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: rgba(11,61,46,0.08); margin: 0 auto 8px; display: flex; align-items: center; justify-content: center; color: #0B3D2E;">
+            <span class="material-symbols-outlined" style="font-size: 20px;">styler</span>
+          </div>
+          <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #8A6D1C;">
+            Celebration Dress Code
+          </span>
+          <h4 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: #0B3D2E; margin: 4px 0 6px;">
+            Elegant Formal &bull; Black Tie Optional
+          </h4>
+          <p style="font-size: 12px; color: #5A625D; max-width: 300px; margin: 0 auto 14px;">
+            Guests are invited to dress in formal celebratory attire. Festive accents in emerald green and champagne gold are warmly encouraged.
+          </p>
+
+          <!-- Palette Swatches -->
+          <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+              <div style="width: 28px; height: 28px; border-radius: 50%; background: #0B3D2E; border: 1.5px solid #C9A227; box-shadow: 0 2px 5px rgba(0,0,0,0.15);"></div>
+              <span style="font-size: 9px; font-weight: 600; color: #5A625D;">Emerald</span>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+              <div style="width: 28px; height: 28px; border-radius: 50%; background: #ECC246; border: 1.5px solid #C9A227; box-shadow: 0 2px 5px rgba(0,0,0,0.15);"></div>
+              <span style="font-size: 9px; font-weight: 600; color: #5A625D;">Gold</span>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+              <div style="width: 28px; height: 28px; border-radius: 50%; background: #FAF6EC; border: 1.5px solid #C9A227; box-shadow: 0 2px 5px rgba(0,0,0,0.15);"></div>
+              <span style="font-size: 9px; font-weight: 600; color: #5A625D;">Cream</span>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+              <div style="width: 28px; height: 28px; border-radius: 50%; background: #1F2421; border: 1.5px solid #C9A227; box-shadow: 0 2px 5px rgba(0,0,0,0.15);"></div>
+              <span style="font-size: 9px; font-weight: 600; color: #5A625D;">Midnight</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: INTERACTIVE RSVP -->
+      <section id="section-rsvp" style="scroll-margin-top: 80px; margin-top: 24px;">
+
+        <div class="filigree-card" style="padding: 26px 20px;">
+          
+          <div style="text-align: center; margin-bottom: 20px;">
+            <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #8A6D1C;">
+              Kindly Respond By November 15, 2026
+            </span>
+            <h3 style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: #0B3D2E; margin: 4px 0 6px;">
+              Reserve Your Place
+            </h3>
+            <p style="font-size: 13px; color: #5A625D;">
+              Please let us know if you will celebrate with Derrick in person.
+            </p>
+          </div>
+
+          <!-- RSVP Form -->
+          <form id="rsvpMainForm" onsubmit="return false;">
+
+            <!-- Attendance Choice -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px;">
+              <button type="button" class="rsvp-choice-btn active" data-choice="accept" style="padding: 12px 10px; border-radius: 16px; border: 1px solid #C9A227; background: #0B3D2E; color: #FFFDF9; font-size: 13px; font-weight: 600; display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer; transition: all 0.2s;">
+                <span class="material-symbols-outlined" style="font-size: 20px; color: #ECC246;">check_circle</span>
+                <span>Joyfully Accepts</span>
+              </button>
+
+              <button type="button" class="rsvp-choice-btn" data-choice="decline" style="padding: 12px 10px; border-radius: 16px; border: 1px solid rgba(201,162,39,0.3); background: #FFFDF9; color: #5A625D; font-size: 13px; font-weight: 600; display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer; transition: all 0.2s;">
+                <span class="material-symbols-outlined" style="font-size: 20px;">cancel</span>
+                <span>Regretfully Declines</span>
+              </button>
+            </div>
+
+            <!-- Input: Guest Name -->
+            <div style="margin-bottom: 14px;">
+              <label for="guestNameInput" style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8A6D1C; margin-bottom: 4px;">
+                Full Name *
+              </label>
+              <input 
+                type="text" 
+                id="guestNameInput" 
+                placeholder="e.g. Dr. Jane Mwangi" 
+                required 
+                style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(201,162,39,0.4); background: #FFFDF9; font-family: var(--font-sans); font-size: 14px; color: #1F2421; outline: none;"
+                onfocus="this.style.borderColor='#C9A227'; this.style.boxShadow='0 0 0 3px rgba(201,162,39,0.15)';"
+                onblur="this.style.borderColor='rgba(201,162,39,0.4)'; this.style.boxShadow='none';"
+              >
+            </div>
+
+            <!-- Input: Phone / WhatsApp -->
+            <div style="margin-bottom: 14px;">
+              <label for="guestContactInput" style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8A6D1C; margin-bottom: 4px;">
+                WhatsApp / Phone Number
+              </label>
+              <input 
+                type="tel" 
+                id="guestContactInput" 
+                placeholder="e.g. +254 712 345 678" 
+                style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(201,162,39,0.4); background: #FFFDF9; font-family: var(--font-sans); font-size: 14px; color: #1F2421; outline: none;"
+                onfocus="this.style.borderColor='#C9A227'; this.style.boxShadow='0 0 0 3px rgba(201,162,39,0.15)';"
+                onblur="this.style.borderColor='rgba(201,162,39,0.4)'; this.style.boxShadow='none';"
+              >
+            </div>
+
+            <!-- Attending Guests Count -->
+            <div id="guestCountRow" style="margin-bottom: 14px;">
+              <label style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8A6D1C; margin-bottom: 4px;">
+                Total Attending
+              </label>
+              <div style="display: flex; gap: 8px;">
+                <button type="button" class="guest-count-btn active" data-count="1" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #C9A227; background: #0B3D2E; color: #FFFDF9; font-weight: 600; cursor: pointer;">1 Guest</button>
+                <button type="button" class="guest-count-btn" data-count="2" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid rgba(201,162,39,0.3); background: #FFFDF9; color: #1F2421; font-weight: 600; cursor: pointer;">2 Guests</button>
+                <button type="button" class="guest-count-btn" data-count="3+" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid rgba(201,162,39,0.3); background: #FFFDF9; color: #1F2421; font-weight: 600; cursor: pointer;">Family</button>
+              </div>
+            </div>
+
+            <!-- Meal Preference -->
+            <div id="mealPrefRow" style="margin-bottom: 14px;">
+              <label for="mealSelect" style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8A6D1C; margin-bottom: 4px;">
+                Dietary Preference
+              </label>
+              <select id="mealSelect" style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(201,162,39,0.4); background: #FFFDF9; font-family: var(--font-sans); font-size: 14px; color: #1F2421; outline: none;">
+                <option value="Chef's Choice Roast &amp; Poultry">Chef's Choice Roast &amp; Savory Poultry</option>
+                <option value="Herb-Crusted Fish &amp; Seafood">Herb-Crusted Fish &amp; Seafood Delicacy</option>
+                <option value="Vegetarian Gourmet Selection">Vegetarian / Vegan Gourmet Selection</option>
+                <option value="Special Dietary (Halal / Gluten-Free)">Special Dietary (Halal / Gluten-Free)</option>
+              </select>
+            </div>
+
+            <!-- Congratulatory Message for Derrick -->
+            <div style="margin-bottom: 18px;">
+              <label for="guestNoteInput" style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8A6D1C; margin-bottom: 4px;">
+                Blessing or Congratulatory Message for Derrick
+              </label>
+              <textarea 
+                id="guestNoteInput" 
+                rows="3" 
+                placeholder="Share a heartfelt memory, advice, or congratulatory blessing..." 
+                style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(201,162,39,0.4); background: #FFFDF9; font-family: var(--font-sans); font-size: 14px; color: #1F2421; outline: none; resize: vertical;"
+                onfocus="this.style.borderColor='#C9A227'; this.style.boxShadow='0 0 0 3px rgba(201,162,39,0.15)';"
+                onblur="this.style.borderColor='rgba(201,162,39,0.4)'; this.style.boxShadow='none';"
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submitRsvpBtn" class="btn-emerald" style="width: 100%; padding: 16px; font-size: 15px;">
+              <span class="material-symbols-outlined" style="font-size: 20px; color: #ECC246;">mark_email_read</span>
+              <span>Confirm &amp; Transmit RSVP</span>
+            </button>
+
+          </form>
+
+          <!-- Confirmed Success State Display -->
+          <div id="rsvpSuccessCard" style="display: none; text-align: center; padding: 24px 16px; background: rgba(11,61,46,0.06); border: 1px solid #C9A227; border-radius: 20px; margin-top: 14px;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: #0B3D2E; color: #ECC246; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px;">
+              <span class="material-symbols-outlined" style="font-size: 28px;">verified</span>
+            </div>
+            <h4 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: #0B3D2E;">
+              RSVP Received with Joy!
+            </h4>
+            <p id="rsvpConfirmedDetails" style="font-size: 13px; color: #5A625D; margin: 6px 0 16px; line-height: 1.5;">
+              Thank you! Derrick and the Ng'ang'a family eagerly await celebrating this momentous milestone together.
+            </p>
+            <button id="editRsvpBtn" class="btn-ghost-gold" style="font-size: 12px; padding: 8px 16px;">
+              <span class="material-symbols-outlined" style="font-size: 16px;">edit</span>
+              <span>Update My RSVP</span>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SECTION: GIFTS & BLESSINGS -->
+      <section id="section-gifts" style="scroll-margin-top: 80px; margin-top: 24px;">
+
+        <div class="filigree-card" style="padding: 24px 18px; text-align: center;">
+
+          <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(201,162,39,0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; color: #8A6D1C;">
+            <span class="material-symbols-outlined" style="font-size: 22px;">featured_seasonal_and_gifts</span>
+          </div>
+
+          <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #8A6D1C;">
+            Blessings &amp; Congratulations
+          </span>
+          <h3 style="font-family: var(--font-display); font-size: 22px; font-weight: 700; color: #0B3D2E; margin: 4px 0 6px;">
+            Graduate Innovation Fund
+          </h3>
+          <p style="font-size: 13px; color: #5A625D; max-width: 320px; margin: 0 auto 16px; line-height: 1.5;">
+            Your presence at Derrick's commencement is the greatest gift of all. For friends and well-wishers who desire to honor his tech career launchpad, monetary gifts may be sent directly below:
+          </p>
+
+          <!-- M-Pesa & Bank Registry Card -->
+          <div style="background: #FFFDF9; border: 1px solid rgba(201,162,39,0.35); border-radius: 18px; padding: 16px; text-align: left; margin-bottom: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+            
+            <!-- M-Pesa Item -->
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(201,162,39,0.2); padding-bottom: 12px; margin-bottom: 12px;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="width: 36px; height: 36px; border-radius: 10px; background: #00A651; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 14px;">
+                  M
+                </div>
+                <div>
+                  <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; text-transform: uppercase;">M-Pesa Send Money</span>
+                  <p style="font-family: var(--font-sans); font-size: 14px; font-weight: 700; color: #0B3D2E;">+254 700 000 000</p>
+                  <span style="font-size: 11px; color: #717974;">Derrick Ng'ang'a</span>
+                </div>
+              </div>
+              <button class="copy-val-btn btn-ghost-gold" data-copy="+254700000000" style="padding: 6px 12px; font-size: 11px;">
+                <span class="material-symbols-outlined" style="font-size: 14px;">content_copy</span>
+                <span>Copy</span>
+              </button>
+            </div>
+
+            <!-- Bank Item -->
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="width: 36px; height: 36px; border-radius: 10px; background: #0B3D2E; display: flex; align-items: center; justify-content: center; color: #ECC246;">
+                  <span class="material-symbols-outlined" style="font-size: 18px;">account_balance</span>
+                </div>
+                <div>
+                  <span style="font-size: 11px; font-weight: 700; color: #8A6D1C; text-transform: uppercase;">Bank Transfer (KCB / Equity)</span>
+                  <p style="font-family: var(--font-sans); font-size: 14px; font-weight: 700; color: #0B3D2E;">Ac: 1234567890</p>
+                  <span style="font-size: 11px; color: #717974;">Derrick Ng'ang'a &bull; Tech Fund</span>
+                </div>
+              </div>
+              <button class="copy-val-btn btn-ghost-gold" data-copy="1234567890" style="padding: 6px 12px; font-size: 11px;">
+                <span class="material-symbols-outlined" style="font-size: 14px;">content_copy</span>
+                <span>Copy</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Digital Guestbook Blessings Wall -->
+          <div style="text-align: left; margin-top: 20px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+              <h5 style="font-family: var(--font-display); font-size: 16px; font-weight: 600; color: #0B3D2E;">
+                Words of Congratulation
+              </h5>
+              <span id="guestbookCount" style="font-size: 11px; font-weight: 700; color: #8A6D1C; background: rgba(201,162,39,0.15); padding: 2px 8px; border-radius: 9999px;">
+                3 Wishes
+              </span>
+            </div>
+
+            <!-- Guestbook Feed -->
+            <div id="guestbookFeed" style="display: flex; flex-direction: column; gap: 10px;">
+              
+              <div style="background: rgba(241, 238, 228, 0.6); border: 1px solid rgba(201,162,39,0.25); border-radius: 14px; padding: 12px 14px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <strong style="font-size: 13px; color: #0B3D2E;">Dr. Peter Mwangi &amp; SCIT Faculty</strong>
+                  <span style="font-size: 10px; color: #8A6D1C;">Mentor</span>
+                </div>
+                <p style="font-size: 12px; color: #3A423E; font-style: italic; line-height: 1.4;">
+                  “An exceptional student, dedicated builder, and future IT trailblazer. Congratulations on earning your Bachelor of Science with flying colors!”
+                </p>
+              </div>
+
+              <div style="background: rgba(241, 238, 228, 0.6); border: 1px solid rgba(201,162,39,0.25); border-radius: 14px; padding: 12px 14px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <strong style="font-size: 13px; color: #0B3D2E;">The Ng'ang'a Family</strong>
+                  <span style="font-size: 10px; color: #8A6D1C;">Family</span>
+                </div>
+                <p style="font-size: 12px; color: #3A423E; font-style: italic; line-height: 1.4;">
+                  “Our hearts overflow with thanksgiving. God has blessed the fruit of your labor, Derrick. Keep shining in every room you enter!”
+                </p>
+              </div>
+
+              <div style="background: rgba(241, 238, 228, 0.6); border: 1px solid rgba(201,162,39,0.25); border-radius: 14px; padding: 12px 14px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <strong style="font-size: 13px; color: #0B3D2E;">Kevin &amp; Campus Devs</strong>
+                  <span style="font-size: 10px; color: #8A6D1C;">Colleagues</span>
+                </div>
+                <p style="font-size: 12px; color: #3A423E; font-style: italic; line-height: 1.4;">
+                  “From late-night hackathons and debugging sessions to graduation day! Cheers to the next big tech chapter, Derrick!”
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Heirloom Stately Footer -->
+      <footer style="margin-top: 32px; padding: 24px 0 16px; text-align: center;">
+        <div style="display: flex; align-items: center; justify-content: center; gap: 8px; color: rgba(201,162,39,0.5); margin-bottom: 8px;">
+          <div style="width: 32px; height: 1px; background: rgba(201,162,39,0.3);"></div>
+          <span class="material-symbols-outlined" style="font-size: 18px;">school</span>
+          <div style="width: 32px; height: 1px; background: rgba(201,162,39,0.3);"></div>
+        </div>
+        <p style="font-family: var(--font-display); font-style: italic; font-size: 18px; color: #8A6D1C;">
+          With Pride &amp; Gratitude
+        </p>
+        <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: #5A625D; display: block; margin-top: 4px;">
+          Derrick Ng'ang'a &bull; Class of 2026 &bull; Kikuyu, Kenya
+        </span>
+      </footer>
+
+    </main>
+
+    <!-- Fixed Floating Bottom Navigation Dock -->
+    <nav style="position: fixed; bottom: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: center; pointer-events: none;">
+      <div style="width: 100%; max-width: 440px; background: rgba(255, 253, 249, 0.94); backdrop-filter: blur(16px); border-top: 1px solid rgba(201,162,39,0.25); box-shadow: 0 -4px 20px rgba(11,61,46,0.08); display: flex; align-items: center; justify-content: space-around; height: 64px; padding-bottom: env(safe-area-inset-bottom, 0px); pointer-events: auto;">
+        
+        <button class="nav-tab active" data-target="section-honors" style="background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 6px 12px;">
+          <span class="material-symbols-outlined tab-icon" style="font-size: 22px;">school</span>
+          <span style="font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">Honors</span>
+        </button>
+
+        <button class="nav-tab" data-target="section-program" style="background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 6px 12px;">
+          <span class="material-symbols-outlined tab-icon" style="font-size: 22px;">event</span>
+          <span style="font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">Program</span>
+        </button>
+
+        <button class="nav-tab" data-target="section-venue" style="background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 6px 12px;">
+          <span class="material-symbols-outlined tab-icon" style="font-size: 22px;">account_balance</span>
+          <span style="font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">Venue</span>
+        </button>
+
+        <button class="nav-tab" data-target="section-rsvp" style="background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 6px 12px;">
+          <span class="material-symbols-outlined tab-icon" style="font-size: 22px;">mark_email_read</span>
+          <span style="font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">RSVP</span>
+        </button>
+
+        <button class="nav-tab" data-target="section-gifts" style="background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 6px 12px;">
+          <span class="material-symbols-outlined tab-icon" style="font-size: 22px;">featured_seasonal_and_gifts</span>
+          <span style="font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">Gifts</span>
+        </button>
+
+      </div>
+    </nav>
+
+    <!-- Toast Notification Message -->
+    <div id="toast" class="toast">
+      <span class="material-symbols-outlined" style="font-size: 18px; color: #ECC246;">check_circle</span>
+      <span id="toastMsg">Action completed!</span>
+    </div>
+
+  </div>
+
+  <!-- Interactive JavaScript -->
+  <script>
+    // -------------------------------------------------------------
+    // 1. Toast Notification Utility
+    // -------------------------------------------------------------
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3200);
+    }
+
+    // -------------------------------------------------------------
+    // 2. High-Performance Vanilla Canvas Confetti System
+    // -------------------------------------------------------------
+    const canvas = document.getElementById('confettiCanvas');
+    const ctx = canvas.getContext('2d');
+    let confettiParticles = [];
+    let animationFrameId = null;
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    class ConfettiPiece {
+      constructor(x, y) {
+        this.x = x ?? Math.random() * canvas.width;
+        this.y = y ?? -10;
+        this.size = Math.random() * 8 + 6;
+        this.weight = Math.random() * 2 + 1.5;
+        this.angle = Math.random() * 360;
+        this.angularSpeed = (Math.random() - 0.5) * 8;
+        this.vx = (Math.random() - 0.5) * 6;
+        this.vy = Math.random() * 4 + 2;
+        // Emerald & Gold ceremonial palette
+        const colors = ['#ECC246', '#C9A227', '#0B3D2E', '#165340', '#FAF6EC', '#D4AF37'];
+        this.color = colors[Math.floor(Math.random() * colors.length)];
+        this.shape = Math.random() > 0.4 ? 'rect' : 'circle';
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.angle += this.angularSpeed;
+        this.vy += 0.08; // gravity
+      }
+      draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate((this.angle * Math.PI) / 180);
+        ctx.fillStyle = this.color;
+        if (this.shape === 'rect') {
+          ctx.fillRect(-this.size / 2, -this.size / 2, this.size, this.size * 0.6);
+        } else {
+          ctx.beginPath();
+          ctx.arc(0, 0, this.size / 2.5, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        ctx.restore();
+      }
+    }
+
+    function fireConfettiBurst(originX, originY) {
+      const count = 75;
+      for (let i = 0; i < count; i++) {
+        const p = new ConfettiPiece(originX, originY);
+        p.vx = (Math.random() - 0.5) * 12;
+        p.vy = (Math.random() - 0.8) * 14;
+        confettiParticles.push(p);
+      }
+      if (!animationFrameId) {
+        renderConfetti();
+      }
+    }
+
+    function renderConfetti() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      confettiParticles.forEach((p, idx) => {
+        p.update();
+        p.draw();
+        if (p.y > canvas.height + 20) {
+          confettiParticles.splice(idx, 1);
+        }
+      });
+      if (confettiParticles.length > 0) {
+        animationFrameId = requestAnimationFrame(renderConfetti);
+      } else {
+        animationFrameId = null;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 3. Web Audio API Ceremonial Fanfare Chime
+    // -------------------------------------------------------------
+    let audioCtx = null;
+    let isSoundMuted = false;
+
+    function playGraduationChime() {
+      if (isSoundMuted) return;
+      try {
+        if (!audioCtx) {
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume();
+        }
+        // Regal Fanfare Arpeggio: F4, A4, C5, F5
+        const notes = [349.23, 440.00, 523.25, 698.46, 880.00];
+        const now = audioCtx.currentTime;
+
+        notes.forEach((freq, idx) => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(freq, now + idx * 0.12);
+
+          gain.gain.setValueAtTime(0.001, now + idx * 0.12);
+          gain.gain.exponentialRampToValueAtTime(0.2, now + idx * 0.12 + 0.04);
+          gain.gain.exponentialRampToValueAtTime(0.0001, now + idx * 0.12 + 1.2);
+
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now + idx * 0.12);
+          osc.stop(now + idx * 0.12 + 1.3);
+        });
+      } catch (e) {
+        console.warn('Audio not available', e);
+      }
+    }
+
+    document.getElementById('soundToggleBtn')?.addEventListener('click', (e) => {
+      const rect = e.currentTarget.getBoundingClientRect();
+      playGraduationChime();
+      fireConfettiBurst(rect.left + rect.width / 2, rect.top + rect.height / 2);
+      showToast('♫ Playing ceremonial graduation fanfare');
+    });
+
+    // -------------------------------------------------------------
+    // 4. Interactive Tactile Wax Seal
+    // -------------------------------------------------------------
+    const waxSeal = document.getElementById('waxSealBtn');
+    waxSeal?.addEventListener('click', (e) => {
+      const rect = waxSeal.getBoundingClientRect();
+      const x = rect.left + rect.width / 2;
+      const y = rect.top + rect.height / 2;
+      fireConfettiBurst(x, y);
+      playGraduationChime();
+      showToast('✦ Stamped with academic honors & blessings!');
+    });
+
+    // -------------------------------------------------------------
+    // 5. Live Commencement Countdown Timer
+    // -------------------------------------------------------------
+    // Commencement Date: Friday, November 27, 2026 14:00:00 GMT+0300 (EAT)
+    const targetDate = new Date('2026-11-27T14:00:00+03:00').getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference <= 0) {
+        document.getElementById('daysVal').textContent = '00';
+        document.getElementById('hoursVal').textContent = '00';
+        document.getElementById('minutesVal').textContent = '00';
+        document.getElementById('secondsVal').textContent = '00';
+        return;
+      }
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      document.getElementById('daysVal').textContent = String(days).padStart(2, '0');
+      document.getElementById('hoursVal').textContent = String(hours).padStart(2, '0');
+      document.getElementById('minutesVal').textContent = String(minutes).padStart(2, '0');
+      document.getElementById('secondsVal').textContent = String(seconds).padStart(2, '0');
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // -------------------------------------------------------------
+    // 6. Calendar Integration (Google Cal & Apple .ics)
+    // -------------------------------------------------------------
+    const calDropdownBtn = document.getElementById('calendarDropdownBtn');
+    const calOptions = document.getElementById('calendarOptions');
+
+    calDropdownBtn?.addEventListener('click', () => {
+      const isOpen = calOptions.style.display === 'block';
+      calOptions.style.display = isOpen ? 'none' : 'block';
+    });
+
+    document.getElementById('addGoogleCal')?.addEventListener('click', () => {
+      const title = encodeURIComponent("Derrick Ng'ang'a BSc. IT Graduation Commencement & Gala");
+      const details = encodeURIComponent("Academic Commencement Convocation & Gala Dinner Celebration honoring Derrick Ng'ang'a, BSc. in Information Technology. Processional promptly at 2:00 PM; Gala Dinner at 6:00 PM at Wattle House.");
+      const location = encodeURIComponent("Wattle House, Kikuyu, Kenya");
+      const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=20261127T110000Z/20261127T200000Z&details=${details}&location=${location}`;
+      window.open(url, '_blank');
+      calOptions.style.display = 'none';
+      showToast('Opening Google Calendar...');
+    });
+
+    document.getElementById('addAppleIcs')?.addEventListener('click', () => {
+      const icsData = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Derrick Nganga Graduation//EN",
+        "CALSCALE:GREGORIAN",
+        "BEGIN:VEVENT",
+        "SUMMARY:Derrick Ng'ang'a BSc. IT Graduation Commencement & Gala",
+        "DESCRIPTION:Commencement Convocation (2:00 PM) and Gala Dinner (6:00 PM) for Derrick Ng'ang'a, BSc. IT.",
+        "LOCATION:Wattle House\\, Kikuyu\\, Kenya",
+        "DTSTART:20261127T110000Z",
+        "DTEND:20261127T200000Z",
+        "STATUS:CONFIRMED",
+        "END:VEVENT",
+        "END:VCALENDAR"
+      ].join("\r\n");
+
+      const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8' });
+      const link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.setAttribute('download', 'derrick-graduation-2026.ics');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      calOptions.style.display = 'none';
+      showToast('Downloaded .ics calendar file!');
+    });
+
+    // -------------------------------------------------------------
+    // 7. Share Invitation Action
+    // -------------------------------------------------------------
+    document.getElementById('headerShareBtn')?.addEventListener('click', async () => {
+      const shareData = {
+        title: "Derrick Ng'ang'a BSc. IT Graduation Invitation",
+        text: "You are cordially invited to celebrate the Graduation Commencement & Gala Dinner of Derrick Ng'ang'a (BSc. Information Technology) on Friday, November 27, 2026 at Wattle House, Kikuyu.",
+        url: window.location.href
+      };
+
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {
+          // Fallback if dismissed
+        }
+      } else {
+        navigator.clipboard?.writeText(window.location.href);
+        showToast('Invitation link copied to clipboard!');
+      }
+    });
+
+    // -------------------------------------------------------------
+    // 8. Copy Venue & Registry Data
+    // -------------------------------------------------------------
+    document.getElementById('copyDirectionsBtn')?.addEventListener('click', () => {
+      const addr = "Wattle House, Kikuyu, Kiambu County, Kenya";
+      navigator.clipboard?.writeText(addr);
+      showToast('Venue address copied to clipboard!');
+    });
+
+    document.querySelectorAll('.copy-val-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const val = btn.getAttribute('data-copy');
+        navigator.clipboard?.writeText(val);
+        showToast(`Copied ${val} to clipboard!`);
+      });
+    });
+
+    // -------------------------------------------------------------
+    // 9. Interactive RSVP Submission & LocalStorage Persistence
+    // -------------------------------------------------------------
+    let currentAttendance = 'accept';
+    let currentGuestCount = '1';
+
+    // Toggle Attendance Choice Buttons
+    document.querySelectorAll('.rsvp-choice-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.rsvp-choice-btn').forEach(b => {
+          b.classList.remove('active');
+          b.style.background = '#FFFDF9';
+          b.style.color = '#5A625D';
+          b.style.borderColor = 'rgba(201,162,39,0.3)';
+          const icon = b.querySelector('.material-symbols-outlined');
+          if (icon) icon.style.color = 'inherit';
+        });
+
+        btn.classList.add('active');
+        btn.style.background = '#0B3D2E';
+        btn.style.color = '#FFFDF9';
+        btn.style.borderColor = '#C9A227';
+        const activeIcon = btn.querySelector('.material-symbols-outlined');
+        if (activeIcon) activeIcon.style.color = '#ECC246';
+
+        currentAttendance = btn.getAttribute('data-choice');
+        const countRow = document.getElementById('guestCountRow');
+        const mealRow = document.getElementById('mealPrefRow');
+
+        if (currentAttendance === 'decline') {
+          countRow.style.opacity = '0.5';
+          mealRow.style.opacity = '0.5';
+        } else {
+          countRow.style.opacity = '1';
+          mealRow.style.opacity = '1';
+        }
+      });
+    });
+
+    // Toggle Guest Count Buttons
+    document.querySelectorAll('.guest-count-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.guest-count-btn').forEach(b => {
+          b.classList.remove('active');
+          b.style.background = '#FFFDF9';
+          b.style.color = '#1F2421';
+          b.style.borderColor = 'rgba(201,162,39,0.3)';
+        });
+        btn.classList.add('active');
+        btn.style.background = '#0B3D2E';
+        btn.style.color = '#FFFDF9';
+        btn.style.borderColor = '#C9A227';
+        currentGuestCount = btn.getAttribute('data-count');
+      });
+    });
+
+    // Form Submission
+    const rsvpForm = document.getElementById('rsvpMainForm');
+    const rsvpSuccessCard = document.getElementById('rsvpSuccessCard');
+    const submitBtn = document.getElementById('submitRsvpBtn');
+
+    // Check if previously submitted in this browser
+    const savedRsvp = localStorage.getItem('derrick_grad_rsvp');
+    if (savedRsvp) {
+      try {
+        const data = JSON.parse(savedRsvp);
+        showConfirmedState(data);
+      } catch(e) {}
+    }
+
+    rsvpForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('guestNameInput').value.trim();
+      const contact = document.getElementById('guestContactInput').value.trim();
+      const meal = document.getElementById('mealSelect').value;
+      const note = document.getElementById('guestNoteInput').value.trim();
+
+      if (!name) {
+        document.getElementById('guestNameInput').focus();
+        return;
+      }
+
+      // Transmitting Animation
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `
+        <span class="material-symbols-outlined animate-spin" style="font-size: 20px;">progress_activity</span>
+        <span>Transmitting RSVP...</span>
+      `;
+
+      setTimeout(() => {
+        const rsvpRecord = {
+          name,
+          contact,
+          attendance: currentAttendance,
+          guestCount: currentAttendance === 'accept' ? currentGuestCount : '0',
+          meal: currentAttendance === 'accept' ? meal : 'N/A',
+          note,
+          timestamp: new Date().toISOString()
+        };
+
+        localStorage.setItem('derrick_grad_rsvp', JSON.stringify(rsvpRecord));
+
+        // If guest left a note, add dynamically to Guestbook!
+        if (note) {
+          addGuestbookEntry(name, note);
+        }
+
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `
+          <span class="material-symbols-outlined" style="font-size: 20px; color: #ECC246;">mark_email_read</span>
+          <span>Confirm &amp; Transmit RSVP</span>
+        `;
+
+        showConfirmedState(rsvpRecord);
+
+        // Celebration Trigger
+        const rect = rsvpSuccessCard.getBoundingClientRect();
+        fireConfettiBurst(rect.left + rect.width / 2, rect.top + 60);
+        playGraduationChime();
+        showToast('RSVP successfully confirmed!');
+      }, 700);
+    });
+
+    function showConfirmedState(data) {
+      rsvpForm.style.display = 'none';
+      rsvpSuccessCard.style.display = 'block';
+
+      const detailsEl = document.getElementById('rsvpConfirmedDetails');
+      if (data.attendance === 'accept') {
+        detailsEl.innerHTML = `
+          <strong>${data.name}</strong> &bull; Attending (${data.guestCount} Guest${data.guestCount === '1' ? '' : 's'})<br>
+          <span style="font-size: 11px; color: #717974;">Meal Selection: ${data.meal}</span><br>
+          <span style="font-size: 11px; color: #0B3D2E; font-weight: 600; margin-top: 4px; display: inline-block;">We look forward to honoring this milestone with you!</span>
+        `;
+      } else {
+        detailsEl.innerHTML = `
+          <strong>${data.name}</strong> &bull; Regretfully unable to attend in person.<br>
+          <span style="font-size: 11px; color: #717974;">Thank you for sending your warm thoughts &amp; blessings to Derrick!</span>
+        `;
+      }
+    }
+
+    document.getElementById('editRsvpBtn')?.addEventListener('click', () => {
+      rsvpSuccessCard.style.display = 'none';
+      rsvpForm.style.display = 'block';
+    });
+
+    function addGuestbookEntry(author, message) {
+      const feed = document.getElementById('guestbookFeed');
+      const countEl = document.getElementById('guestbookCount');
+      if (!feed) return;
+
+      const newCard = document.createElement('div');
+      newCard.style.background = 'rgba(236, 194, 70, 0.15)';
+      newCard.style.border = '1px solid #C9A227';
+      newCard.style.borderRadius = '14px';
+      newCard.style.padding = '12px 14px';
+      newCard.innerHTML = `
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+          <strong style="font-size: 13px; color: #0B3D2E;">${author}</strong>
+          <span style="font-size: 10px; color: #8A6D1C; font-weight: 600;">Just Now</span>
+        </div>
+        <p style="font-size: 12px; color: #1F2421; font-style: italic; line-height: 1.4;">
+          “${message}”
+        </p>
+      `;
+      feed.insertBefore(newCard, feed.firstChild);
+
+      const items = feed.children.length;
+      if (countEl) countEl.textContent = `${items} Wishes`;
+    }
+
+    // -------------------------------------------------------------
+    // 10. Bottom Navigation Tab Smooth Scrolling & Active State
+    // -------------------------------------------------------------
+    const navTabs = document.querySelectorAll('.nav-tab');
+    navTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const targetId = tab.getAttribute('data-target');
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Intersection Observer to highlight active bottom tab on scroll
+    const sections = ['section-honors', 'section-program', 'section-venue', 'section-rsvp', 'section-gifts'];
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY + 140;
+      let currentSectionId = sections[0];
+
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el && el.offsetTop <= scrollPos) {
+          currentSectionId = id;
+        }
+      });
+
+      navTabs.forEach(tab => {
+        if (tab.getAttribute('data-target') === currentSectionId) {
+          tab.classList.add('active');
+        } else {
+          tab.classList.remove('active');
+        }
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>
