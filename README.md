@@ -23,7 +23,7 @@ Built according to the **Emerald & Filigree Heirloom** design system inspired by
   - One-tap **Google Calendar** event link.
   - One-tap **Apple Calendar / iCal (.ics)** downloadable event.
 - **Venue & Smart Navigation**:
-  - Wattle House Celebration Grounds, Kikuyu.
+  - Sarova Panafric Hotel, Upper Hill, Nairobi.
   - One-tap navigation links for Google Maps.
   - Address copy button with instant confirmation toast.
 - **Mobile-First Responsive Dock**:
